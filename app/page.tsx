@@ -11,10 +11,7 @@ import FAQ from "./components/FAQ";
 export default function Home() {
   return (
     <>
-    <head>
-        <title>Claim Social Security Benefits Quickly and Easily | Advocate</title>
-        <link rel="icon" href="/favicon.ico" />
-      </head>
+    
       <section className="flex flex-col md:flex-row justify-between items-center px-6 md:px-16 py-16 bg-[#E9F5FF] min-h-screen">
 
         {/* Left Content */}
