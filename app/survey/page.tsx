@@ -105,12 +105,6 @@ const Survey = () => {
       return;
     }
 
-    if (key === "lawyer_status" && value === "Yes") {
-      setQualified(false);
-      setFinished(true);
-      return;
-    }
-
     // ✅ After last question, go to the form step instead of finishing
     if (step < questions.length - 1) {
       setStep(step + 1);
